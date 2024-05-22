@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Control y Monitoreo de PLC</title>
+    <!-- AWP_In_Variable Name='"MARTXA_HMI"' -->
+    <!-- AWP_In_Variable Name='"PAUSA_HMI"' -->
+    <!-- AWP_In_Variable Name='"SETA_HMI"' -->
+    <!-- AWP_In_Variable Name='"PARO FIN CICLO_HMI"' -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -87,19 +91,19 @@
   <main>
     <form method="post" action="">
         <p>SM1-en balioa sartu:</p>
-        <input type='text' name='"MARTXA"'value=':="MARTXA_HMI":'/>
+        <input type='text' name='""MARTXA_HMI"'value=':="MARTXA_HMI":'/>
         <input type='submit' value="Bidali PLC-ra"/>
     <form method="post" action="">
         <p>SM2-ren balioa sartu:</p>
-        <input type='text' name='"PARO"'value=':="PAUSA_HMI":'/>
+        <input type='text' name='"PAUSA_HMI"'value=':="PAUSA_HMI":'/>
         <input type='submit' value="Bidali PLC-ra"/>
     <form method="post" action="">
         <p>SM3-ren balioa sartu:</p>
-        <input type='text' name='"EMERGENCIA"'value=':="SETA_HMI":'/>
+        <input type='text' name='"SETA_HMI"'value=':="SETA_HMI":'/>
         <input type='submit' value="Bidali PLC-ra"/>
     <form method="post" action="">
         <p>SM4-ren balioa sartu:</p>
-        <input type='text' name='"FIN CICLO"'value=':="PARO FIN CICLO_HMI":'/>
+        <input type='text' name='"PARO FIN CICLO_HMI"'value=':="PARO FIN CICLO_HMI":'/>
         <input type='submit' value="Bidali PLC-ra"/>
 
     </main>

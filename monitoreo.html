@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo de PLC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        main {
+            padding: 20px;
+            display: center;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 120px); /* Altura mínima de la sección main */
+            text-align: center;
+        }
+
+        .imagen-plc {
+            max-width: 100%;
+            height: auto;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #f5f5f5;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="http://192.168.5.11/logo.png" alt="Logo de la empresa"/>
+        </div>
+        <h1>Monitoreo</h1>
+        <nav>
+            <ul>
+                <li><a href="prueba.html">Inicioooo</a></li>
+                <li><a href="control.html">Control</a></li>
+                <li><a href="monitoreo.html">Monitoreo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h2>SALIDAS ACTIVADAS</h2>
+        </div>
+        <div>
+            <p>PLATO GIRANDO: :="GIRAR PLATO":</p>
+        </div>
+        <div>
+         <p>CARRO HACIA LA DERECHA: :="MOVER CARRO DERECH."</p>
+        </div>
+        <div>
+            <P>ETAPA: :="Num_Etapa":</P>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html> 

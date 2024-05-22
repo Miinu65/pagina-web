@@ -8,6 +8,7 @@
     <!-- AWP_In_Variable Name='"PAUSA_HMI"' -->
     <!-- AWP_In_Variable Name='"SETA_HMI"' -->
     <!-- AWP_In_Variable Name='"PARO FIN CICLO_HMI"' -->
+    <!-- AWP_In_Variable Name='"tempweb".t1ON' -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,22 +27,25 @@
     </header>
   <main>
     <form method="post" action="">
-        <p>SM1-en balioa sartu:</p>
+        <p>Martxa-ren balioa sartu:</p>
         <input type='text' name='""MARTXA_HMI"'value=':="MARTXA_HMI":'/>
         <input type='submit' value="Bidali PLC-ra"/>
     <form method="post" action="">
-        <p>SM2-ren balioa sartu:</p>
+        <p>Pausa-ren balioa sartu:</p>
         <input type='text' name='"PAUSA_HMI"'value=':="PAUSA_HMI":'/>
         <input type='submit' value="Bidali PLC-ra"/>
     <form method="post" action="">
-        <p>SM3-ren balioa sartu:</p>
+        <p>Larrialdira-ren balioa sartu:</p>
         <input type='text' name='"SETA_HMI"'value=':="SETA_HMI":'/>
         <input type='submit' value="Bidali PLC-ra"/>
     <form method="post" action="">
-        <p>SM4-ren balioa sartu:</p>
+        <p>PFC-ren balioa sartu:</p>
         <input type='text' name='"PARO FIN CICLO_HMI"'value=':="PARO FIN CICLO_HMI":'/>
         <input type='submit' value="Bidali PLC-ra"/>
-
+    <form method="post" action="">
+        <p>tenporizadorearen balioa sartu:</p>
+        <input type='text' name='"tempweb".t1ON"'value=':="tempweb".t1ON":'/>
+        <input type='submit' value="Bidali PLC-ra"/>
     </main>
     <footer>
         <p>&copy; 2024 Tu Empresa. Todos los derechos reservados.</p>
